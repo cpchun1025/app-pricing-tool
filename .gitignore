@@ -1,0 +1,19 @@
+# .NET
+bin/
+obj/
+*.user
+.vs/
+
+# Node / Vite
+node_modules/
+dist/
+*.tsbuildinfo
+npm-debug.log*
+
+# Local overrides (copy frontend/.env.example to frontend/.env.local)
+.env.local
+.env.*.local
+
+# OS / editor
+.DS_Store
+.idea/
